@@ -2,6 +2,8 @@
 Spring Boot 2 and Java 8 Demo Project for REST API. It had two method for string manipulations.
 This utility tool consolidating series to be used to determine if a ranges(s) should be allowed or excluded.
 
+Classic example for delete API with body.
+
 ## Requirements
 	1. Write an sprint boot application with below api 
 	1.1 POST api to accept list of strings and return the first longest string from it. Use streams. 
@@ -15,7 +17,7 @@ Post Api
 If the input = `['A', 'B', 'AA', 'BB']`
 Then the output should be = `['AA']`
 
-Delete Api
+Delete Api with body.
 If the input = `['A1234567890', 'B12345678', '123456789012']`
 Then the output should be = `['A1234567890', '123456789012']`
 
@@ -109,6 +111,10 @@ To execute this, run: `gradle test`
 The unit test report can be seen by opening `/build/reports/tests/test/index.html` with a web browser.
 
 The code coverage report can be seen by opening `/build/reports/jacoco/test/html/index.html` with a web browser.
+
+Coverrage :
+JUnit Test Cases for Services.
+Integration Test Cases for Controller.
 
 ## Libraries
 
